@@ -7,6 +7,7 @@ import LoanCalculator from './Components/LoanCalculator';
 import SalesTaxCalculator from "./Components/SalesTaxcalculator"
 import UnitConverter from './Components/UnitConverter';
 import CurrencyConverter from './Components/CurrencyConverter';
+import MathCalculator from './Components/MathCalculator';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           {/* Converter tools */}
           <Route path="/converters/unit" element={<UnitConverter />} />
           <Route path="/converters/currency" element={<CurrencyConverter />} />
+
+          {/* MathCalculator */}
+          <Route path="/mathCalculator" element={<MathCalculator/>}/>
         </Routes>
       </div>
     </Router>

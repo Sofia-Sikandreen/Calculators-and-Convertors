@@ -22,6 +22,14 @@ function Navbar() {
             Converters
           </NavLink>
         </li>
+        <li>
+          <NavLink 
+            to="/mathCalculator" 
+            className={({ isActive }) => isActive ? 'active' : ''}
+          >
+            Math Solver
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
