@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SmartSolver/static/css/main.bf944ef5.css",
+    "main.js": "/SmartSolver/static/js/main.4d60fb97.js",
+    "static/js/488.2e5d54a6.chunk.js": "/SmartSolver/static/js/488.2e5d54a6.chunk.js",
+    "index.html": "/SmartSolver/index.html",
+    "main.bf944ef5.css.map": "/SmartSolver/static/css/main.bf944ef5.css.map",
+    "main.4d60fb97.js.map": "/SmartSolver/static/js/main.4d60fb97.js.map",
+    "488.2e5d54a6.chunk.js.map": "/SmartSolver/static/js/488.2e5d54a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf944ef5.css",
+    "static/js/main.4d60fb97.js"
+  ]
+}
