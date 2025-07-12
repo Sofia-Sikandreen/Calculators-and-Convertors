@@ -5,7 +5,17 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className='navbar'>
+      <div className="navbar-content">
+        <img src="/logo192.png" alt="Smart Solver Logo" className="logo" />
       <ul>
+         <li>
+          <NavLink 
+            to="/mathCalculator" 
+            className={({ isActive }) => isActive ? 'active' : ''}
+          >
+            AI 
+          </NavLink>
+        </li>
         <li>
           <NavLink 
             to="/calculators" 
@@ -22,15 +32,9 @@ function Navbar() {
             Converters
           </NavLink>
         </li>
-        <li>
-          <NavLink 
-            to="/mathCalculator" 
-            className={({ isActive }) => isActive ? 'active' : ''}
-          >
-            Math Solver
-          </NavLink>
-        </li>
+       
       </ul>
+      </div>
     </nav>
   );
 }
