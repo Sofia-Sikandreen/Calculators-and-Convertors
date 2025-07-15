@@ -28,7 +28,7 @@ const CurrencyConverter = () => {
     };
 
     fetchCurrencies();
-  }, []);
+  }, [API_URL]);
 
   const handleConvert = async () => {
     if (!amount || isNaN(amount)) {

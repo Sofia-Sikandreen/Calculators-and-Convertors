@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           {/* Main pages */}
-          <Route path="/" element={<CalculatorsPage />} />
+          <Route path="/" element={<MathCalculator />} />
           <Route path="/calculators" element={<CalculatorsPage />} />
           <Route path="/converters" element={<ConvertersPage />} />
           
