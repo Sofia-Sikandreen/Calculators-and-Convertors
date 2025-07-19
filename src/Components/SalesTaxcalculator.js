@@ -36,6 +36,7 @@ function SalesTaxCalculator() {
             type="number"
             value={beforeTaxPrice}
             onChange={(e) => setBeforeTaxPrice(e.target.value)}
+            min="0"
             required
           />
         </div>
@@ -48,6 +49,7 @@ function SalesTaxCalculator() {
             step="0.01"
             value={salesTaxPercentage}
             onChange={(e) => setSalesTaxPercentage(e.target.value)}
+            min="0"
             required
           />
         </div>
