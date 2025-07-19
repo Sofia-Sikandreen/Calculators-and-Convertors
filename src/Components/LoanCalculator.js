@@ -57,6 +57,7 @@ function LoanCalculator() {
             type="number"
             value={loanAmount}
             onChange={(e) => setLoanAmount(e.target.value)}
+            min="0"
             required
           />
         </div>
@@ -67,6 +68,7 @@ function LoanCalculator() {
             step="0.01"
             value={interestRate}
             onChange={(e) => setInterestRate(e.target.value)}
+            min="0"
             required
           />
         </div>
@@ -76,6 +78,7 @@ function LoanCalculator() {
             type="number"
             value={loanTerm}
             onChange={(e) => setLoanTerm(e.target.value)}
+            min="0"
             required
           />
         </div>
