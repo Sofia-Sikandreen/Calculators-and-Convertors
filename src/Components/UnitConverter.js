@@ -36,6 +36,7 @@ const UnitConverter = () => {
             type="number"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
+            min="0"
             placeholder="Enter value"
           />
         </div>
